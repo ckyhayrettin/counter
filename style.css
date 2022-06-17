@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  background-color: #424242;
+}
+
+body .countainer {
+  width: 24rem;
+  height: 24rem;
+  background-color: #666666;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+}
+
+body .countainer .counter-head .text {
+  font-size: 4rem;
+  padding: 5px;
+}
+
+body .countainer .counter-body .number {
+  font-size: 8rem;
+  font-weight: bold;
+}
+
+body .countainer .counter-footer .btn {
+  width: 7rem;
+  height: 2rem;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 5px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+  cursor: pointer;
+}
+
+body .countainer .counter-footer .btn:hover {
+  background-color: #404040;
+  color: #f2f2f2;
+}
+
+@media screen and (max-width: 480px) {
+  body .countainer .counter-head .text {
+    font-size: 3rem;
+  }
+  body .countainer .counter-body .number {
+    font-size: 7rem;
+  }
+  body .countainer .counter-footer .btn {
+    width: 6rem;
+    font-size: 0.8rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
